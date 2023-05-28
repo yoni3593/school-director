@@ -1,6 +1,8 @@
+import './index.css'; // ייבוא קובץ עם סגנונות מותאמים אישית
+import 'bootstrap/dist/css/bootstrap.css'; // ייבוא סגנון של Bootstrap
+import 'bootstrap/dist/js/bootstrap.js'; // ייבוא סקריפט של Bootstrap
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
